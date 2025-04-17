@@ -9,6 +9,27 @@
   align-items: center;
   justify-content: center;
 }
+.language-buttons {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.language-buttons button {
+  margin: 0 10px;
+  padding: 8px 16px;
+  border: 1.5px solid #0732ef;
+  border-radius: 20px;
+  background-color: #fff;
+  color: #0732ef;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.language-buttons button:hover {
+  background-color: #0732ef;
+  color: #fff;
+}
 
 .hero-content {
   text-align: center;
@@ -143,4 +164,16 @@
 .card-link:hover {
   color: #fff;
   transform: scaleX(1.1);
+}
+
+.card {
+  border: 1px solid #0000ff;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+  .card {
+    flex: 0 1 100%;
+  }
 }

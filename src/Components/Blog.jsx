@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./blog.css"; // Ensure your CSS file is imported
-
+import axios from "axios"
 const Blog = () => {
   // State to manage dialog visibility, input values, and saved feedback
   const [isDialogOpen, setIsDialogOpen] = useState(false);
@@ -18,6 +18,13 @@ const Blog = () => {
       setSavedFeedback(JSON.parse(storedFeedback));
     }
   }, []);
+
+  const resposne  =()=>{
+    const res = axios.post("http://localhost:3000/submit-feedback",savedFeedback).then
+    (()=>{
+      console.log(res);
+    })
+  }
 
   // Function to open the dialog and set the current blog index and dialog type
   const openDialog = (index, type) => {
@@ -100,7 +107,7 @@ const Blog = () => {
                 </div>
               </div>
               <div className="blog-content">
-                <span className="blog-date">Sep 1, 2024</span>
+                <span className="blog-date">23 april, 2025</span>
                 <h2>
                   {index === 0
                     ? "Article Blog Cards"

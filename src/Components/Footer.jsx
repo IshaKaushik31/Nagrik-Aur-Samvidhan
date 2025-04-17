@@ -41,20 +41,20 @@ const Footer = () => {
         </div>
         <div className="footer-section contact">
           <address>
-            <p>1174 Farnum Road, New York, NY, 10040</p>
-            <p>(+91) 212-569</p>
-            <p>(+91) 237-901</p>
+            <p>India Noida</p>
+            <p>(+91) 8810873052</p>
+            <p>(+91) 1234567890</p>
             <p>
-              Email: <a href="mailto:info@barber.com">info@barber.com</a>
+              Email: <a href="mailto:info@barber.com">info@nagriik.com</a>
             </p>
             <p>
-              Email: <a href="mailto:contact@barber.com">contact@barber.com</a>
+              Email: <a href="mailto:contact@barber.com">contact@nagrik.com</a>
             </p>
           </address>
         </div>
       </div>
       <div className="footer-bottom">
-        <p>&copy; 2024 Barber. All rights reserved.</p>
+        <p>&copy; 2025 nagrik. All rights reserved.</p>
       </div>
     </footer>
   );

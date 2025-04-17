@@ -75,8 +75,8 @@ const Game = () => {
       <div className="containerh">
         <div className="card__container" style={{ marginTop: "-50px" }}>
           {/* Third Card */}
-          <Link to={"/guess"}>
-            <motion.article
+         
+            {/* <motion.article
               className="card__article"
               variants={cardVariants}
               initial="hidden"
@@ -90,9 +90,10 @@ const Game = () => {
                 </span>
                 <h2 className="card__title">Build your Government</h2>
               </div>
-            </motion.article>
-          </Link>
+            </motion.article> */}
+         
           {/* Fourth Card */}
+          <Link to={"/guess"}>
           <motion.article
             className="card__article"
             variants={cardVariants}
@@ -114,6 +115,7 @@ const Game = () => {
               <h2 className="card__title">Memory Match</h2>
             </div>
           </motion.article>
+          </Link>
         </div>
       </div>
     </div>

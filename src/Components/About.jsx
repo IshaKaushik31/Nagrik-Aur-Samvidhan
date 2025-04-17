@@ -123,9 +123,9 @@ const AboutUs = () => {
         </p>
       </div>
 
-      <p style={styles.tea}>Team Members</p>
+      {/* <p style={styles.tea}>Team Members</p> */}
 
-      <section>
+      {/* <section>
         <div style={styles.teamContainer}>
           {[
             {
@@ -200,7 +200,7 @@ const AboutUs = () => {
             </div>
           ))}
         </div>
-      </section>
+      </section> */}
     </div>
   );
 };

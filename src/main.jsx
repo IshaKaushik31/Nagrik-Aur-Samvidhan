@@ -15,6 +15,7 @@ import Blog from "./Components/Blog";
 import Guess from "./Components/Guess";
 import Feature from "./Components/Feature";
 import AboutUs from "./Components/About";
+import i18n from "./Components/i18n";
 const PUBLISHABLE_KEY = import.meta.env.VITE_CLERK_PUBLISHABLE_KEY;
 if (!PUBLISHABLE_KEY) {
   throw new Error("Missing Publishable Key");
